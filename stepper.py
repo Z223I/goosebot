@@ -35,9 +35,9 @@ import RPi.GPIO as GPIO
 class FishFeeder():
 
   # Define GPIO signals to use
-  # Physical pins 11,15,16,18
-  # GPIO17, GPIO18, GPIO22, GPIO23
-  StepPins = [17, 18, 22, 23]
+  # Physical pins 16, 19, 20, 21
+  # GPIO16, GPIO19, GPIO20, GPIO21
+  StepPins = [16, 19, 20, 21]
 
   # Define advanced sequence
   # as shown in manufacturers datasheet
